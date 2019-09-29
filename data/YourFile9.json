@@ -1,0 +1,1913 @@
+{
+    "directed": false, 
+    "graph": {
+        "node_default": {}, 
+        "edge_default": {}
+    }, 
+    "nodes": [
+        {
+            "realname": "Gamora", 
+            "type": "hero", 
+            "id": "h8", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/9/9a/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_Gamora-616-icon.png/revision/latest?cb=20140804200301", 
+            "name": "Gamora"
+        }, 
+        {
+            "realname": "Tree", 
+            "type": "hero", 
+            "id": "h9", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/f/ff/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_Groot-616-icon.png/revision/latest?cb=20140804200953", 
+            "name": "Groot"
+        }, 
+        {
+            "realname": "Natalia 'Natasha' Alianovna Romanova", 
+            "type": "hero", 
+            "id": "h2", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_blackwidow.png", 
+            "name": "Black Widow"
+        }, 
+        {
+            "realname": "Steven Rogers", 
+            "type": "hero", 
+            "id": "h3", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainamerica.png", 
+            "name": "Captain America"
+        }, 
+        {
+            "realname": "Scott Edward Harris Lang", 
+            "type": "hero", 
+            "id": "h0", 
+            "img": "https://66.media.tumblr.com/efaec1534e6bb5a6098109868c63ddbd/tumblr_pth6pw18hg1y6tm1lo2_250.png", 
+            "name": "Ant-Man"
+        }, 
+        {
+            "realname": "T'Challa", 
+            "type": "hero", 
+            "id": "h1", 
+            "img": "https://i5.walmartimages.com/asr/cc05057a-9754-47c8-8484-eeaa8b7cadfe_1.a19d631cdc390267e74834f1d579855f.jpeg", 
+            "name": "Black Panther"
+        }, 
+        {
+            "realname": "Arthur Sampson Douglas", 
+            "type": "hero", 
+            "id": "h6", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/e/e0/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_Drax-616-icon.png/revision/latest?cb=20140804200510", 
+            "name": "Drax the Destroyer"
+        }, 
+        {
+            "realname": "Arthur Sampson Douglas", 
+            "type": "hero", 
+            "id": "h7", 
+            "img": "https://cdn2.iconfinder.com/data/icons/superheroes-and-villains-emoji/66/73-512.png", 
+            "name": "Falcon"
+        }, 
+        {
+            "realname": "Carol Danvers", 
+            "type": "hero", 
+            "id": "h4", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png", 
+            "name": "Captain Marvel"
+        }, 
+        {
+            "realname": "Stephen Vincent Strange", 
+            "type": "hero", 
+            "id": "h5", 
+            "img": "https://www.industriamovies.com/wp-content/uploads/2017/09/dr_strange.png", 
+            "name": "Doctor Strange"
+        }, 
+        {
+            "realname": "Odin Borson", 
+            "type": "hero", 
+            "id": "h17", 
+            "img": "https://image.flaticon.com/icons/png/512/1339/1339647.png", 
+            "name": "Odin"
+        }, 
+        {
+            "realname": "James Rupert \"Rhodey\" Rhodes", 
+            "type": "hero", 
+            "id": "h25", 
+            "img": "https://cdn.iconscout.com/icon/premium/png-512-thumb/war-machine-1502864-1273079.png", 
+            "name": "War Machine"
+        }, 
+        {
+            "realname": "Vision", 
+            "type": "hero", 
+            "id": "h24", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b2/Vision-icon.png/revision/latest?cb=20150423093134", 
+            "name": "Vision"
+        }, 
+        {
+            "realname": "James Buchanan Barnes \"Bucky\"", 
+            "type": "hero", 
+            "id": "h27", 
+            "img": "https://cdn3.iconfinder.com/data/icons/marvel-avatars-filledoutline/64/winter_soldier-avangers-marvel-avatars-gartoon-marvel_avatars-hero-512.png", 
+            "name": "Winter Soldier"
+        }, 
+        {
+            "realname": "Janet van Dyne", 
+            "type": "hero", 
+            "id": "h26", 
+            "img": "https://uploads.knightlab.com/storymapjs/66a8ce3d673908940e6fc721c47fac72/ant-man-and-the-wasp/_images/AntmanWasp.png", 
+            "name": "Wasp"
+        }, 
+        {
+            "realname": "Peter Benjamin Parker", 
+            "type": "hero", 
+            "id": "h21", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_spiderman.png", 
+            "name": "Spider-Man"
+        }, 
+        {
+            "realname": "Wanda Maximoff", 
+            "type": "hero", 
+            "id": "h20", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b9/Scarlet-icon.png/revision/latest?cb=20150423093133", 
+            "name": "Scarlet Witch"
+        }, 
+        {
+            "realname": "Thor Odinson", 
+            "type": "hero", 
+            "id": "h23", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_thor.png", 
+            "name": "Thor"
+        }, 
+        {
+            "realname": "Peter Jason Quill", 
+            "type": "hero", 
+            "id": "h22", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b8/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_StarLord-616-icon.png/revision/latest?cb=20140804195658", 
+            "name": "Star-Lord"
+        }, 
+        {
+            "realname": "Mantis", 
+            "type": "hero", 
+            "id": "h14", 
+            "img": "https://66.media.tumblr.com/6fcc4d351d8cf1735e2fbf823f644991/tumblr_ptcj57zeOs1y6tm1lo1_250.png", 
+            "name": "Mantis"
+        }, 
+        {
+            "realname": "Nebula", 
+            "type": "hero", 
+            "id": "h15", 
+            "img": "https://images-na.ssl-images-amazon.com/images/I/61HJ4zhvoBL._UX522_.jpg", 
+            "name": "Nebula"
+        }, 
+        {
+            "realname": "Pietro Maximoff", 
+            "type": "hero", 
+            "id": "h18", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/0/07/Quicksilver-icon.png/revision/latest?cb=20150423093133", 
+            "name": "Quicksilver"
+        }, 
+        {
+            "realname": "Rocket Raccoon", 
+            "type": "hero", 
+            "id": "h19", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/5/52/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_RocketRaccoon-616-icon.png/revision/latest?cb=20140804200731", 
+            "name": "Rocket Raccoon"
+        }, 
+        {
+            "realname": "Clinton Francis \"Clint\" Barton", 
+            "type": "hero", 
+            "id": "h10", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/d/dc/Hawkeye-icon.png/revision/latest?cb=20150423093132", 
+            "name": "Hawkeye"
+        }, 
+        {
+            "realname": "Robert Bruce Banner", 
+            "type": "hero", 
+            "id": "h11", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_hulk.png", 
+            "name": "Hulk"
+        }, 
+        {
+            "realname": "Anthony Edward 'Tony' Stark", 
+            "type": "hero", 
+            "id": "h12", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_ironman.png", 
+            "name": "Iron Man"
+        }, 
+        {
+            "realname": "Loki Laufeyson", 
+            "type": "hero", 
+            "id": "h13", 
+            "img": "https://i.pinimg.com/originals/2f/e9/fc/2fe9fca7e9f5cbece28679cee2d456f0.png", 
+            "name": "Loki"
+        }, 
+        {
+            "realname": "Nicholas Joseph Fury, Sr.", 
+            "type": "hero", 
+            "id": "h16", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/1/1e/Fury-icon.png/revision/latest?cb=20150423093132", 
+            "name": "Nick Fury"
+        }
+    ], 
+    "links": [
+        {
+            "source": "h8", 
+            "target": "h9", 
+            "weight": 4
+        }, 
+        {
+            "source": "h8", 
+            "target": "h2", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h3", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h0", 
+            "weight": 1
+        }, 
+        {
+            "source": "h8", 
+            "target": "h1", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h6", 
+            "weight": 4
+        }, 
+        {
+            "source": "h8", 
+            "target": "h7", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h8", 
+            "target": "h5", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h25", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h24", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h27", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h8", 
+            "target": "h21", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h20", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h23", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h22", 
+            "weight": 4
+        }, 
+        {
+            "source": "h8", 
+            "target": "h14", 
+            "weight": 3
+        }, 
+        {
+            "source": "h8", 
+            "target": "h15", 
+            "weight": 4
+        }, 
+        {
+            "source": "h8", 
+            "target": "h19", 
+            "weight": 4
+        }, 
+        {
+            "source": "h8", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h8", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h8", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h9", 
+            "target": "h2", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h3", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h0", 
+            "weight": 1
+        }, 
+        {
+            "source": "h9", 
+            "target": "h1", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h6", 
+            "weight": 5
+        }, 
+        {
+            "source": "h9", 
+            "target": "h7", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h9", 
+            "target": "h5", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h25", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h24", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h27", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h9", 
+            "target": "h21", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h20", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h23", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h22", 
+            "weight": 5
+        }, 
+        {
+            "source": "h9", 
+            "target": "h14", 
+            "weight": 4
+        }, 
+        {
+            "source": "h9", 
+            "target": "h15", 
+            "weight": 4
+        }, 
+        {
+            "source": "h9", 
+            "target": "h19", 
+            "weight": 5
+        }, 
+        {
+            "source": "h9", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h9", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h9", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h2", 
+            "target": "h3", 
+            "weight": 6
+        }, 
+        {
+            "source": "h2", 
+            "target": "h0", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h1", 
+            "weight": 3
+        }, 
+        {
+            "source": "h2", 
+            "target": "h6", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h7", 
+            "weight": 5
+        }, 
+        {
+            "source": "h2", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h2", 
+            "target": "h5", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h25", 
+            "weight": 5
+        }, 
+        {
+            "source": "h2", 
+            "target": "h24", 
+            "weight": 4
+        }, 
+        {
+            "source": "h2", 
+            "target": "h27", 
+            "weight": 4
+        }, 
+        {
+            "source": "h2", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h2", 
+            "target": "h21", 
+            "weight": 4
+        }, 
+        {
+            "source": "h2", 
+            "target": "h20", 
+            "weight": 5
+        }, 
+        {
+            "source": "h2", 
+            "target": "h23", 
+            "weight": 4
+        }, 
+        {
+            "source": "h2", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h18", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h2", 
+            "target": "h10", 
+            "weight": 4
+        }, 
+        {
+            "source": "h2", 
+            "target": "h11", 
+            "weight": 4
+        }, 
+        {
+            "source": "h2", 
+            "target": "h12", 
+            "weight": 6
+        }, 
+        {
+            "source": "h2", 
+            "target": "h13", 
+            "weight": 3
+        }, 
+        {
+            "source": "h2", 
+            "target": "h16", 
+            "weight": 5
+        }, 
+        {
+            "source": "h3", 
+            "target": "h0", 
+            "weight": 4
+        }, 
+        {
+            "source": "h3", 
+            "target": "h1", 
+            "weight": 3
+        }, 
+        {
+            "source": "h3", 
+            "target": "h6", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h7", 
+            "weight": 6
+        }, 
+        {
+            "source": "h3", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h3", 
+            "target": "h5", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h25", 
+            "weight": 4
+        }, 
+        {
+            "source": "h3", 
+            "target": "h24", 
+            "weight": 4
+        }, 
+        {
+            "source": "h3", 
+            "target": "h27", 
+            "weight": 6
+        }, 
+        {
+            "source": "h3", 
+            "target": "h26", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h21", 
+            "weight": 4
+        }, 
+        {
+            "source": "h3", 
+            "target": "h20", 
+            "weight": 5
+        }, 
+        {
+            "source": "h3", 
+            "target": "h23", 
+            "weight": 4
+        }, 
+        {
+            "source": "h3", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h18", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h3", 
+            "target": "h10", 
+            "weight": 4
+        }, 
+        {
+            "source": "h3", 
+            "target": "h11", 
+            "weight": 4
+        }, 
+        {
+            "source": "h3", 
+            "target": "h12", 
+            "weight": 6
+        }, 
+        {
+            "source": "h3", 
+            "target": "h13", 
+            "weight": 3
+        }, 
+        {
+            "source": "h3", 
+            "target": "h16", 
+            "weight": 5
+        }, 
+        {
+            "source": "h0", 
+            "target": "h1", 
+            "weight": 2
+        }, 
+        {
+            "source": "h0", 
+            "target": "h6", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h7", 
+            "weight": 3
+        }, 
+        {
+            "source": "h0", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h5", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h25", 
+            "weight": 2
+        }, 
+        {
+            "source": "h0", 
+            "target": "h24", 
+            "weight": 2
+        }, 
+        {
+            "source": "h0", 
+            "target": "h27", 
+            "weight": 3
+        }, 
+        {
+            "source": "h0", 
+            "target": "h26", 
+            "weight": 3
+        }, 
+        {
+            "source": "h0", 
+            "target": "h21", 
+            "weight": 3
+        }, 
+        {
+            "source": "h0", 
+            "target": "h20", 
+            "weight": 2
+        }, 
+        {
+            "source": "h0", 
+            "target": "h23", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h22", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h14", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h15", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h19", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h10", 
+            "weight": 2
+        }, 
+        {
+            "source": "h0", 
+            "target": "h11", 
+            "weight": 1
+        }, 
+        {
+            "source": "h0", 
+            "target": "h12", 
+            "weight": 3
+        }, 
+        {
+            "source": "h0", 
+            "target": "h13", 
+            "weight": 1
+        }, 
+        {
+            "source": "h1", 
+            "target": "h6", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h7", 
+            "weight": 3
+        }, 
+        {
+            "source": "h1", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h1", 
+            "target": "h5", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h25", 
+            "weight": 3
+        }, 
+        {
+            "source": "h1", 
+            "target": "h24", 
+            "weight": 3
+        }, 
+        {
+            "source": "h1", 
+            "target": "h27", 
+            "weight": 4
+        }, 
+        {
+            "source": "h1", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h1", 
+            "target": "h21", 
+            "weight": 3
+        }, 
+        {
+            "source": "h1", 
+            "target": "h20", 
+            "weight": 3
+        }, 
+        {
+            "source": "h1", 
+            "target": "h23", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h10", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h12", 
+            "weight": 3
+        }, 
+        {
+            "source": "h1", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h1", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h6", 
+            "target": "h7", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h6", 
+            "target": "h5", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h25", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h24", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h27", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h6", 
+            "target": "h21", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h20", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h23", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h22", 
+            "weight": 5
+        }, 
+        {
+            "source": "h6", 
+            "target": "h14", 
+            "weight": 4
+        }, 
+        {
+            "source": "h6", 
+            "target": "h15", 
+            "weight": 4
+        }, 
+        {
+            "source": "h6", 
+            "target": "h19", 
+            "weight": 5
+        }, 
+        {
+            "source": "h6", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h6", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h6", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h7", 
+            "target": "h4", 
+            "weight": 1
+        }, 
+        {
+            "source": "h7", 
+            "target": "h5", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h25", 
+            "weight": 4
+        }, 
+        {
+            "source": "h7", 
+            "target": "h24", 
+            "weight": 4
+        }, 
+        {
+            "source": "h7", 
+            "target": "h27", 
+            "weight": 5
+        }, 
+        {
+            "source": "h7", 
+            "target": "h26", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h21", 
+            "weight": 3
+        }, 
+        {
+            "source": "h7", 
+            "target": "h20", 
+            "weight": 5
+        }, 
+        {
+            "source": "h7", 
+            "target": "h23", 
+            "weight": 3
+        }, 
+        {
+            "source": "h7", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h18", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h10", 
+            "weight": 3
+        }, 
+        {
+            "source": "h7", 
+            "target": "h11", 
+            "weight": 3
+        }, 
+        {
+            "source": "h7", 
+            "target": "h12", 
+            "weight": 4
+        }, 
+        {
+            "source": "h7", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h7", 
+            "target": "h16", 
+            "weight": 3
+        }, 
+        {
+            "source": "h4", 
+            "target": "h5", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h25", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h24", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h27", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h21", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h20", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h23", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h22", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h14", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h15", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h19", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h11", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h12", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h13", 
+            "weight": 1
+        }, 
+        {
+            "source": "h4", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h5", 
+            "target": "h17", 
+            "weight": 1
+        }, 
+        {
+            "source": "h5", 
+            "target": "h25", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h24", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h27", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h5", 
+            "target": "h21", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h20", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h23", 
+            "weight": 4
+        }, 
+        {
+            "source": "h5", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h5", 
+            "target": "h11", 
+            "weight": 3
+        }, 
+        {
+            "source": "h5", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h5", 
+            "target": "h13", 
+            "weight": 3
+        }, 
+        {
+            "source": "h5", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h17", 
+            "target": "h23", 
+            "weight": 3
+        }, 
+        {
+            "source": "h17", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h17", 
+            "target": "h11", 
+            "weight": 1
+        }, 
+        {
+            "source": "h17", 
+            "target": "h13", 
+            "weight": 3
+        }, 
+        {
+            "source": "h17", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h25", 
+            "target": "h24", 
+            "weight": 4
+        }, 
+        {
+            "source": "h25", 
+            "target": "h27", 
+            "weight": 3
+        }, 
+        {
+            "source": "h25", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h25", 
+            "target": "h21", 
+            "weight": 4
+        }, 
+        {
+            "source": "h25", 
+            "target": "h20", 
+            "weight": 4
+        }, 
+        {
+            "source": "h25", 
+            "target": "h23", 
+            "weight": 3
+        }, 
+        {
+            "source": "h25", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h25", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h25", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h25", 
+            "target": "h18", 
+            "weight": 1
+        }, 
+        {
+            "source": "h25", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h25", 
+            "target": "h10", 
+            "weight": 3
+        }, 
+        {
+            "source": "h25", 
+            "target": "h11", 
+            "weight": 4
+        }, 
+        {
+            "source": "h25", 
+            "target": "h12", 
+            "weight": 7
+        }, 
+        {
+            "source": "h25", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h25", 
+            "target": "h16", 
+            "weight": 4
+        }, 
+        {
+            "source": "h24", 
+            "target": "h27", 
+            "weight": 3
+        }, 
+        {
+            "source": "h24", 
+            "target": "h26", 
+            "weight": 1
+        }, 
+        {
+            "source": "h24", 
+            "target": "h21", 
+            "weight": 3
+        }, 
+        {
+            "source": "h24", 
+            "target": "h20", 
+            "weight": 4
+        }, 
+        {
+            "source": "h24", 
+            "target": "h23", 
+            "weight": 3
+        }, 
+        {
+            "source": "h24", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h24", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h24", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h24", 
+            "target": "h18", 
+            "weight": 1
+        }, 
+        {
+            "source": "h24", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h24", 
+            "target": "h10", 
+            "weight": 3
+        }, 
+        {
+            "source": "h24", 
+            "target": "h11", 
+            "weight": 3
+        }, 
+        {
+            "source": "h24", 
+            "target": "h12", 
+            "weight": 4
+        }, 
+        {
+            "source": "h24", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h24", 
+            "target": "h16", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h26", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h21", 
+            "weight": 3
+        }, 
+        {
+            "source": "h27", 
+            "target": "h20", 
+            "weight": 4
+        }, 
+        {
+            "source": "h27", 
+            "target": "h23", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h18", 
+            "weight": 1
+        }, 
+        {
+            "source": "h27", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h10", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h12", 
+            "weight": 3
+        }, 
+        {
+            "source": "h27", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h27", 
+            "target": "h16", 
+            "weight": 3
+        }, 
+        {
+            "source": "h26", 
+            "target": "h21", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h20", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h23", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h22", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h14", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h15", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h19", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h11", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h12", 
+            "weight": 1
+        }, 
+        {
+            "source": "h26", 
+            "target": "h13", 
+            "weight": 1
+        }, 
+        {
+            "source": "h21", 
+            "target": "h20", 
+            "weight": 3
+        }, 
+        {
+            "source": "h21", 
+            "target": "h23", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h10", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h12", 
+            "weight": 5
+        }, 
+        {
+            "source": "h21", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h21", 
+            "target": "h16", 
+            "weight": 3
+        }, 
+        {
+            "source": "h20", 
+            "target": "h23", 
+            "weight": 3
+        }, 
+        {
+            "source": "h20", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h20", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h20", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h20", 
+            "target": "h18", 
+            "weight": 2
+        }, 
+        {
+            "source": "h20", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h20", 
+            "target": "h10", 
+            "weight": 3
+        }, 
+        {
+            "source": "h20", 
+            "target": "h11", 
+            "weight": 3
+        }, 
+        {
+            "source": "h20", 
+            "target": "h12", 
+            "weight": 4
+        }, 
+        {
+            "source": "h20", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h20", 
+            "target": "h16", 
+            "weight": 3
+        }, 
+        {
+            "source": "h23", 
+            "target": "h22", 
+            "weight": 2
+        }, 
+        {
+            "source": "h23", 
+            "target": "h14", 
+            "weight": 2
+        }, 
+        {
+            "source": "h23", 
+            "target": "h15", 
+            "weight": 2
+        }, 
+        {
+            "source": "h23", 
+            "target": "h18", 
+            "weight": 1
+        }, 
+        {
+            "source": "h23", 
+            "target": "h19", 
+            "weight": 2
+        }, 
+        {
+            "source": "h23", 
+            "target": "h10", 
+            "weight": 4
+        }, 
+        {
+            "source": "h23", 
+            "target": "h11", 
+            "weight": 5
+        }, 
+        {
+            "source": "h23", 
+            "target": "h12", 
+            "weight": 4
+        }, 
+        {
+            "source": "h23", 
+            "target": "h13", 
+            "weight": 6
+        }, 
+        {
+            "source": "h23", 
+            "target": "h16", 
+            "weight": 4
+        }, 
+        {
+            "source": "h22", 
+            "target": "h14", 
+            "weight": 4
+        }, 
+        {
+            "source": "h22", 
+            "target": "h15", 
+            "weight": 4
+        }, 
+        {
+            "source": "h22", 
+            "target": "h19", 
+            "weight": 5
+        }, 
+        {
+            "source": "h22", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h22", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h22", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h22", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h22", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h14", 
+            "target": "h15", 
+            "weight": 3
+        }, 
+        {
+            "source": "h14", 
+            "target": "h19", 
+            "weight": 4
+        }, 
+        {
+            "source": "h14", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h14", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h14", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h14", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h14", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h15", 
+            "target": "h19", 
+            "weight": 4
+        }, 
+        {
+            "source": "h15", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h15", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h15", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h15", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h15", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h18", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h18", 
+            "target": "h11", 
+            "weight": 1
+        }, 
+        {
+            "source": "h18", 
+            "target": "h12", 
+            "weight": 1
+        }, 
+        {
+            "source": "h18", 
+            "target": "h16", 
+            "weight": 2
+        }, 
+        {
+            "source": "h19", 
+            "target": "h10", 
+            "weight": 1
+        }, 
+        {
+            "source": "h19", 
+            "target": "h11", 
+            "weight": 2
+        }, 
+        {
+            "source": "h19", 
+            "target": "h12", 
+            "weight": 2
+        }, 
+        {
+            "source": "h19", 
+            "target": "h13", 
+            "weight": 2
+        }, 
+        {
+            "source": "h19", 
+            "target": "h16", 
+            "weight": 1
+        }, 
+        {
+            "source": "h10", 
+            "target": "h11", 
+            "weight": 3
+        }, 
+        {
+            "source": "h10", 
+            "target": "h12", 
+            "weight": 4
+        }, 
+        {
+            "source": "h10", 
+            "target": "h13", 
+            "weight": 3
+        }, 
+        {
+            "source": "h10", 
+            "target": "h16", 
+            "weight": 3
+        }, 
+        {
+            "source": "h11", 
+            "target": "h12", 
+            "weight": 6
+        }, 
+        {
+            "source": "h11", 
+            "target": "h13", 
+            "weight": 4
+        }, 
+        {
+            "source": "h11", 
+            "target": "h16", 
+            "weight": 3
+        }, 
+        {
+            "source": "h12", 
+            "target": "h13", 
+            "weight": 3
+        }, 
+        {
+            "source": "h12", 
+            "target": "h16", 
+            "weight": 5
+        }, 
+        {
+            "source": "h13", 
+            "target": "h16", 
+            "weight": 3
+        }
+    ], 
+    "multigraph": false
+}

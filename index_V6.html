@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Infovis Progetto 2 </title>
+<style>
+  @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+      body {font-family: "Source Code Pro", Consolas, monaco, monospace; line-height: 160%; font-size: 16px;  margin: 0; }
+      body{background-image: url("sfondo_edit.jpg");
+      background-repeat:no-repeat;
+      
+      background-position:center;
+      background-size:cover;
+      position: relative;
+}
+h1 { font-size: 24px; margin: 10px 0; text-transform: uppercase; font-weight: normal;}
+h2, h3, h4 { font-size: 18px; margin: 5px 0 ; font-weight: normal;} 
+header {padding: 20px; position: absolute; top: 0; left: 0;}
+      
+.link {
+  stroke: #ccc;
+}
+
+.node text {
+  pointer-events: none;
+  font: 13px sans-serif;
+}
+node:not(:hover) .nodetext {
+        display: none;
+      }
+     
+</style>
+<body>
+    <div>  Hello. It's the Marvel Cinematic Universe! Visit <a href="graph_herotohero.html">hero to hero</a> graph to check the best hero team!</div>
+  <div id="div1" ></div> 
+  <div id="div2"></div>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<header>
+    <h1>The Marvel Cinematic Universe</h1>
+    <h2>Click to view the Marvel Characters identity.</h2>
+    <h3>And the detail!</h3>
+    <h4></h4>
+
+    
+</header>
+
+  <!-- container for force layout visualisation  -->
+  <section id="vis"></section> 
+
+<script>
+
+// var width = 960,
+//     height = 700
+
+var width = window.innerWidth;
+var height = window.innerHeight;
+var radius=6;
+
+var focusNode = null, highlightNode = null;
+var highlightTrans = 0.1;
+
+
+
+var svg = d3.select("#div2").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+
+var force = d3.layout.force()
+    //.gravity(0.01)
+    .charge(-440)
+    .linkDistance(90)
+    .friction(0.9)
+    // .gravity(0.01)
+    // .distance(200)
+    // .charge(-100)
+    .size([width-100, height-100]);
+
+d3.json("data/YourFile5.json", function(error, json) {
+  if (error) throw error;
+// per creare "nodino" centrale negli archi per rendere i nodi piu distanti, con creazione dizionario nodi connessi
+  var linkNodes = [];
+
+  json.links.forEach(function(link) {
+    linkNodes.push({
+      source: json.nodes[link.source],
+      target: json.nodes[link.target]
+    });
+  });
+  console.log(linkNodes);
+  force
+      .nodes(json.nodes.concat(linkNodes))
+      .links(json.links)
+      .start();
+
+var linkedByIndex = {};
+json.links.forEach(function(d) {
+  linkedByIndex[d.source.index + "," + d.target.index] = 1;
+});
+//console.log(linkedByIndex);
+
+  //////////////////////////////////////////
+  var link = svg.selectAll(".link")
+      .data(json.links)
+    .enter().append("line")
+      .attr("class", "link")
+      .style("stroke","grey");
+
+  var node = svg.selectAll(".node")
+      .data(json.nodes)
+      .enter().append("g")
+      .attr("class", "node")
+      .call(force.drag);
+
+  node.append("image")
+        .attr("xlink:href",  function(d) { return d.img;})
+        .attr("x", function(d) { return -25;})
+        .attr("y", function(d) { return -25;})
+        .attr("height", 62)
+        .attr("width", 62);
+      // .attr("x", -8)
+      // .attr("y", -8)
+      // .attr("width", 16)
+      // .attr("height", 16);
+
+  node.append("text")
+      .attr("dx", 45)
+      .attr("dy", ".25em")
+      .text(function(d) { return d.name });
+
+
+      //si colorano di rosso gli archi collegati se si è over hero
+      // si colorano di blu gli archi collegati se si è over movie
+  node.on("mouseover", function (d) {
+		link.style('stroke-width', function(l) {
+			if (d === l.source || d === l.target)
+				return 4;
+			else
+				return 1;
+    })
+    .style("stroke",function(l) {
+      if (d === l.source || d === l.target )
+        if (d.type ==="hero")
+				  return "#A8251D";
+			  else
+				  return "steelblue";
+    });
+	})
+	.on("mouseout",function (d) {
+    link.style('stroke-width', 1.5)
+    .style("stroke","grey")
+  })
+  //sul down sul nodo si opacizzano i nodi non connessi a quello selezionato
+  .on("mousedown", function(d){
+    //seleziona tutti i nodi e li opacizza
+          d3.selectAll(".node")
+        .transition().duration(100)
+        .style("opacity", 0.1)
+        //rende visibile quello su cui sto
+            d3.select(this)
+          .transition().duration(100)
+          .style("opacity", 1);   
+          //console.log(this.__data__.type)
+
+//parsing del grafo e del dizionario dei nodi connessi linkNodes per saper il nodo su cui si è sopra se è collegato ai suoi vicini e non opacizzarli
+//siccome è grafo diretto source:hero->target:movie devo fare i due casi
+      if(this.__data__.type=="hero"){
+          linkNodes.forEach(element => {
+        if(element.source.id==this.__data__.id){
+          node.forEach(elemNode=>{
+          elemNode.forEach(el=>{
+            
+       if(element.target.id==el.__data__.id){
+          d3.select(el)
+          .transition().duration(100)
+          .style("opacity", 1)   
+          //console.log(element.target.name)
+          }
+          })
+        })
+        }
+        });
+      }
+      if(this.__data__.type=="movie"){
+          linkNodes.forEach(element => {
+        if(element.target.id==this.__data__.id){
+          node.forEach(elemNode=>{
+          elemNode.forEach(el=>{
+            
+       if(element.source.id==el.__data__.id){
+          d3.select(el)
+          .transition().duration(100)
+          .style("opacity", 1)   
+          //console.log(element.source.name)
+          }
+          })
+        })
+        }
+        });
+      }
+ })
+//out tornano tutti link grigio e nodi visibili
+      .on("mouseout",function (d) {
+        link.style('stroke-width', 1.5)
+        .style("stroke","grey")
+        d3.selectAll(".node")
+        .transition().duration(100)
+        .style("opacity", 1)
+  })    
+
+      //stampa i dettagli del json
+  .on( 'click',function (d) {
+    if (d.type=="hero"){ 
+      d3.select("h1").html(d.name); 
+      d3.select("h2").html(d.type); 
+      d3.select("h3").html ("Real name: "   + d.realname );
+      // nodi connessi attraverso parsing del dizionario linkNodes
+
+      stringa_movie="<br>is in movies: <br>"
+      linkNodes.forEach(element1 => {
+        if(element1.source.id==d.id)
+          stringa_movie=stringa_movie+(element1.target.name)+"<br>"
+      });
+       d3.select("h4").html(stringa_movie)
+
+      }
+    else { 
+      d3.select("h1").html(d.name); 
+      d3.select("h2").html(d.type); 
+      d3.select("h3").html ("Release Date: "   + d.realname ); 
+      
+      // nodi connessi
+      stringa_hero="<br>Cast Hero: <br>"
+      linkNodes.forEach(element2 => {
+        if(element2.target.id==d.id)
+          stringa_hero=stringa_hero+(element2.source.name)+"<br>"
+      });
+       d3.select("h4").html(stringa_hero)
+
+      }
+  });
+  //appende il nodo centrale per evitare che si sovrappongano
+  var linkNode = svg.selectAll(".link-node")
+      .data(linkNodes)
+    .enter().append("circle")
+      .attr("class", "link-node")
+      .attr("r", 2)
+      .style("fill", "#ccc");
+
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+    node.attr("cx", function(d) { return d.x = Math.max(radius, Math.min(width - radius, d.x)); })
+        .attr("cy", function(d) { return d.y = Math.max(radius, Math.min(height - radius, d.y)); });
+
+
+    
+    linkNode.attr("cx", function(d) { return d.x = (d.source.x + d.target.x) * 0.5; })
+        .attr("cy", function(d) { return d.y = (d.source.y + d.target.y) * 0.5; });
+  
+  });
+
+  
+  
+});
+
+</script>

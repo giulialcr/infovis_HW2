@@ -1,0 +1,984 @@
+{
+    "directed": true, 
+    "graph": {
+        "node_default": {}, 
+        "edge_default": {}
+    }, 
+    "nodes": [
+        {
+            "id": "h8", 
+            "type": "hero", 
+            "name": "Gamora", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/9/9a/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_Gamora-616-icon.png/revision/latest?cb=20140804200301", 
+            "realname": "Gamora"
+        }, 
+        {
+            "id": "h9", 
+            "type": "hero", 
+            "name": "Groot", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/f/ff/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_Groot-616-icon.png/revision/latest?cb=20140804200953", 
+            "realname": "Tree"
+        }, 
+        {
+            "id": "h2", 
+            "type": "hero", 
+            "name": "Black Widow", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_blackwidow.png", 
+            "realname": "Natalia 'Natasha' Alianovna Romanova"
+        }, 
+        {
+            "id": "h3", 
+            "type": "hero", 
+            "name": "Captain America", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainamerica.png", 
+            "realname": "Steven Rogers"
+        }, 
+        {
+            "id": "h0", 
+            "type": "hero", 
+            "name": "Ant-Man", 
+            "img": "https://66.media.tumblr.com/efaec1534e6bb5a6098109868c63ddbd/tumblr_pth6pw18hg1y6tm1lo2_250.png", 
+            "realname": "Scott Edward Harris Lang"
+        }, 
+        {
+            "id": "h1", 
+            "type": "hero", 
+            "name": "Black Panther", 
+            "img": "https://i5.walmartimages.com/asr/cc05057a-9754-47c8-8484-eeaa8b7cadfe_1.a19d631cdc390267e74834f1d579855f.jpeg", 
+            "realname": "T'Challa"
+        }, 
+        {
+            "id": "h6", 
+            "type": "hero", 
+            "name": "Drax the Destroyer", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/e/e0/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_Drax-616-icon.png/revision/latest?cb=20140804200510", 
+            "realname": "Arthur Sampson Douglas"
+        }, 
+        {
+            "id": "h7", 
+            "type": "hero", 
+            "name": "Falcon", 
+            "img": "https://cdn2.iconfinder.com/data/icons/superheroes-and-villains-emoji/66/73-512.png", 
+            "realname": "Arthur Sampson Douglas"
+        }, 
+        {
+            "id": "h4", 
+            "type": "hero", 
+            "name": "Captain Marvel", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png", 
+            "realname": "Carol Danvers"
+        }, 
+        {
+            "id": "h5", 
+            "type": "hero", 
+            "name": "Doctor Strange", 
+            "img": "https://www.industriamovies.com/wp-content/uploads/2017/09/dr_strange.png", 
+            "realname": "Stephen Vincent Strange"
+        }, 
+        {
+            "id": "m11", 
+            "type": "movie", 
+            "name": "Guardians of the Galaxy", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b9/Guardians_of_the_Galaxy_%28film%29_poster_001.jpg/revision/latest/scale-to-width-down/337?cb=20140516161438", 
+            "realname": "August 1, 2014 (USA)"
+        }, 
+        {
+            "id": "m10", 
+            "type": "movie", 
+            "name": "Doctor Strange", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/2/23/Doctor_Strange_%28film%29_poster_003.jpg/revision/latest/scale-to-width-down/337?cb=20160724013508", 
+            "realname": "November 4, 2016 (USA)"
+        }, 
+        {
+            "id": "m13", 
+            "type": "movie", 
+            "name": "Guardians of the Galaxy Vol. 3", 
+            "img": "https://www.comicmoviedb.com/wp-content/uploads/2017/07/Guardians-of-the-Galaxy-Vol.-3-Poster.jpg", 
+            "realname": "2020"
+        }, 
+        {
+            "id": "m12", 
+            "type": "movie", 
+            "name": "Guardians of the Galaxy Vol. 2", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/9/94/Guardians_of_the_Galaxy_Vol._2_%28film%29_poster_004.jpg/revision/latest/scale-to-width-down/337?cb=20170301052056", 
+            "realname": "May 5, 2017 (USA)"
+        }, 
+        {
+            "id": "m15", 
+            "type": "movie", 
+            "name": "Iron Man 2", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/e/ed/Iron_Man_2_poster.jpg/revision/latest/scale-to-width-down/339?cb=20190309193419", 
+            "realname": "May 7, 2010 (USA)"
+        }, 
+        {
+            "id": "m14", 
+            "type": "movie", 
+            "name": "Iron Man", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/2/20/Ironmanposter.jpg/revision/latest/scale-to-width-down/338?cb=20080502172105", 
+            "realname": "May 2, 2008 (USA)"
+        }, 
+        {
+            "id": "m17", 
+            "type": "movie", 
+            "name": "Spider-Man: Far From Home", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/f/f8/Spider-Man_Far_From_Home_poster_006.jpg/revision/latest/scale-to-width-down/337?cb=20190522174627", 
+            "realname": "July 2, 2019 (USA)"
+        }, 
+        {
+            "id": "m16", 
+            "type": "movie", 
+            "name": "Iron Man 3", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/e/e9/Iron_Man_3_%28film%29_poster_006.jpg/revision/latest/scale-to-width-down/337?cb=20130228172348", 
+            "realname": "May 3, 2013 (USA)"
+        }, 
+        {
+            "id": "m19", 
+            "type": "movie", 
+            "name": "The Avengers", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/1/1a/The_Avengers_%28film%29_poster_011.jpg/revision/latest/scale-to-width-down/338?cb=20120229020811", 
+            "realname": "May 4, 2012 (USA)"
+        }, 
+        {
+            "id": "m18", 
+            "type": "movie", 
+            "name": "Spider-Man: Homecoming", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/4/4f/Spider-Man_Homecoming_poster_004.jpg/revision/latest/scale-to-width-down/337?cb=20170524085936", 
+            "realname": "July 7, 2017 (USA)"
+        }, 
+        {
+            "id": "h17", 
+            "type": "hero", 
+            "name": "Odin", 
+            "img": "https://image.flaticon.com/icons/png/512/1339/1339647.png", 
+            "realname": "Odin Borson"
+        }, 
+        {
+            "id": "h25", 
+            "type": "hero", 
+            "name": "War Machine", 
+            "img": "https://cdn.iconscout.com/icon/premium/png-512-thumb/war-machine-1502864-1273079.png", 
+            "realname": "James Rupert \"Rhodey\" Rhodes"
+        }, 
+        {
+            "id": "h24", 
+            "type": "hero", 
+            "name": "Vision", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b2/Vision-icon.png/revision/latest?cb=20150423093134", 
+            "realname": "Vision"
+        }, 
+        {
+            "id": "h27", 
+            "type": "hero", 
+            "name": "Winter Soldier", 
+            "img": "https://cdn3.iconfinder.com/data/icons/marvel-avatars-filledoutline/64/winter_soldier-avangers-marvel-avatars-gartoon-marvel_avatars-hero-512.png", 
+            "realname": "James Buchanan Barnes \"Bucky\""
+        }, 
+        {
+            "id": "h26", 
+            "type": "hero", 
+            "name": "Wasp", 
+            "img": "https://uploads.knightlab.com/storymapjs/66a8ce3d673908940e6fc721c47fac72/ant-man-and-the-wasp/_images/AntmanWasp.png", 
+            "realname": "Janet van Dyne"
+        }, 
+        {
+            "id": "h21", 
+            "type": "hero", 
+            "name": "Spider-Man", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_spiderman.png", 
+            "realname": "Peter Benjamin Parker"
+        }, 
+        {
+            "id": "h20", 
+            "type": "hero", 
+            "name": "Scarlet Witch", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b9/Scarlet-icon.png/revision/latest?cb=20150423093133", 
+            "realname": "Wanda Maximoff"
+        }, 
+        {
+            "id": "h23", 
+            "type": "hero", 
+            "name": "Thor", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_thor.png", 
+            "realname": "Thor Odinson"
+        }, 
+        {
+            "id": "h22", 
+            "type": "hero", 
+            "name": "Star-Lord", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/b/b8/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_StarLord-616-icon.png/revision/latest?cb=20140804195658", 
+            "realname": "Peter Jason Quill"
+        }, 
+        {
+            "id": "m5", 
+            "type": "movie", 
+            "name": "Black Panther", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/9/94/Black_Panther_%28film%29_poster_003.jpg/revision/latest/scale-to-width-down/337?cb=20171016144930", 
+            "realname": "February 16, 2018 (USA)"
+        }, 
+        {
+            "id": "m4", 
+            "type": "movie", 
+            "name": "Avengers: Infinity War", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/8/8b/Avengers_Infinity_War_poster_002.jpg/revision/latest/scale-to-width-down/337?cb=20180318160428", 
+            "realname": "April 27, 2018 (USA)"
+        }, 
+        {
+            "id": "m7", 
+            "type": "movie", 
+            "name": "Captain America: The First Avenger", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/3/37/Captain_America_The_First_Avenger_poster.jpg/revision/latest?cb=20110725134313", 
+            "realname": "July 22, 2011 (USA)"
+        }, 
+        {
+            "id": "m6", 
+            "type": "movie", 
+            "name": "Captain America: Civil War", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/5/5c/Civil_War_Final_Poster.jpg/revision/latest/scale-to-width-down/337?cb=20160310174551", 
+            "realname": "May 6, 2016 (USA)"
+        }, 
+        {
+            "id": "m1", 
+            "type": "movie", 
+            "name": "Ant-Man and the Wasp", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/3/38/Ant-Man_and_the_Wasp_%28film%29_poster_002.jpg/revision/latest/scale-to-width-down/337?cb=20180430180151", 
+            "realname": "July 6, 2018 (USA)"
+        }, 
+        {
+            "id": "m0", 
+            "type": "movie", 
+            "name": "Ant-Man", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/d/d6/Ant-Man_%28film%29_poster_001.jpeg/revision/latest/scale-to-width-down/337?cb=20150506151531", 
+            "realname": "July 17, 2015 (USA)"
+        }, 
+        {
+            "id": "m3", 
+            "type": "movie", 
+            "name": "Avengers: Age of Ultron", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/e/ee/Avengers_Age_of_Ultron_poster_001.jpg/revision/latest/scale-to-width-down/337?cb=20150224171724", 
+            "realname": "May 1, 2015 (USA)"
+        }, 
+        {
+            "id": "m2", 
+            "type": "movie", 
+            "name": "Avengers: Endgame", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/9/9a/Avengers_Endgame_poster_002.jpg/revision/latest/scale-to-width-down/337?cb=20190315002158", 
+            "realname": "May 3, 2019 (USA)"
+        }, 
+        {
+            "id": "h14", 
+            "type": "hero", 
+            "name": "Mantis", 
+            "img": "https://66.media.tumblr.com/6fcc4d351d8cf1735e2fbf823f644991/tumblr_ptcj57zeOs1y6tm1lo1_250.png", 
+            "realname": "Mantis"
+        }, 
+        {
+            "id": "m9", 
+            "type": "movie", 
+            "name": "Captain Marvel", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/3/33/Captain_Marvel_%28film%29_poster_002.jpg/revision/latest/scale-to-width-down/337?cb=20181203081354", 
+            "realname": "March 8, 2019 (USA)"
+        }, 
+        {
+            "id": "m8", 
+            "type": "movie", 
+            "name": "Captain America: The Winter Soldier", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/0/03/Captain_America_The_Winter_Soldier_poster_005.jpg/revision/latest/scale-to-width-down/337?cb=20140131142746", 
+            "realname": "April 4, 2014 (USA)"
+        }, 
+        {
+            "id": "h15", 
+            "type": "hero", 
+            "name": "Nebula", 
+            "img": "https://images-na.ssl-images-amazon.com/images/I/61HJ4zhvoBL._UX522_.jpg", 
+            "realname": "Nebula"
+        }, 
+        {
+            "id": "h18", 
+            "type": "hero", 
+            "name": "Quicksilver", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/0/07/Quicksilver-icon.png/revision/latest?cb=20150423093133",
+            "realname": "Pietro Maximoff"
+        }, 
+        {
+            "id": "h19", 
+            "type": "hero", 
+            "name": "Rocket Raccoon", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/5/52/Guardians_of_the_Galaxy_Instant-Expert_Essential-pages_RocketRaccoon-616-icon.png/revision/latest?cb=20140804200731", 
+            "realname": "Rocket Raccoon"
+        }, 
+        {
+            "id": "h10", 
+            "type": "hero", 
+            "name": "Hawkeye", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/d/dc/Hawkeye-icon.png/revision/latest?cb=20150423093132", 
+            "realname": "Clinton Francis \"Clint\" Barton"
+        }, 
+        {
+            "id": "h11", 
+            "type": "hero", 
+            "name": "Hulk", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_hulk.png", 
+            "realname": "Robert Bruce Banner"
+        }, 
+        {
+            "id": "h12", 
+            "type": "hero", 
+            "name": "Iron Man", 
+            "img": "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_ironman.png", 
+            "realname": "Anthony Edward 'Tony' Stark"
+        }, 
+        {
+            "id": "h13", 
+            "type": "hero", 
+            "name": "Loki", 
+            "img": "https://i.pinimg.com/originals/2f/e9/fc/2fe9fca7e9f5cbece28679cee2d456f0.png", 
+            "realname": "Loki Laufeyson"
+        }, 
+        {
+            "id": "m20", 
+            "type": "movie", 
+            "name": "The Incredible Hulk", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/7/78/The_Incredible_Hulk_%28film%29.jpg/revision/latest/scale-to-width-down/338?cb=20080529212502", 
+            "realname": "June 13, 2008 (USA)"
+        }, 
+        {
+            "id": "m21", 
+            "type": "movie", 
+            "name": "Thor", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/9/9c/Thor_Theatrical_Poster.jpg/revision/latest/scale-to-width-down/338?cb=20120605120807", 
+            "realname": "May 6, 2011 (USA)"
+        }, 
+        {
+            "id": "m22", 
+            "type": "movie", 
+            "name": "Thor: Ragnarok", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/3/30/Thor_Ragnarok_poster_002.jpg/revision/latest/scale-to-width-down/337?cb=20170723014825", 
+            "realname": "November 3, 2017 (USA)"
+        }, 
+        {
+            "id": "m23", 
+            "type": "movie", 
+            "name": "Thor: The Dark World", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/e/e5/Thor_The_Dark_World_poster_002.jpg/revision/latest/scale-to-width-down/337?cb=20130801204202", 
+            "realname": "November 8, 2013 (USA)"
+        }, 
+        {
+            "id": "h16", 
+            "type": "hero", 
+            "name": "Nick Fury", 
+            "img": "https://vignette.wikia.nocookie.net/marveldatabase/images/1/1e/Fury-icon.png/revision/latest?cb=20150423093132", 
+            "realname": "Nicholas Joseph Fury, Sr."
+        }
+    ], 
+    "links": [
+        {
+            "source": 0, 
+            "target": 10
+        }, 
+        {
+            "source": 0, 
+            "target": 30
+        }, 
+        {
+            "source": 0, 
+            "target": 13
+        }, 
+        {
+            "source": 0, 
+            "target": 36
+        }, 
+        {
+            "source": 1, 
+            "target": 10
+        }, 
+        {
+            "source": 1, 
+            "target": 30
+        }, 
+        {
+            "source": 1, 
+            "target": 12
+        }, 
+        {
+            "source": 1, 
+            "target": 13
+        }, 
+        {
+            "source": 1, 
+            "target": 36
+        }, 
+        {
+            "source": 2, 
+            "target": 30
+        }, 
+        {
+            "source": 2, 
+            "target": 32
+        }, 
+        {
+            "source": 2, 
+            "target": 14
+        }, 
+        {
+            "source": 2, 
+            "target": 35
+        }, 
+        {
+            "source": 2, 
+            "target": 36
+        }, 
+        {
+            "source": 2, 
+            "target": 18
+        }, 
+        {
+            "source": 2, 
+            "target": 39
+        }, 
+        {
+            "source": 3, 
+            "target": 30
+        }, 
+        {
+            "source": 3, 
+            "target": 31
+        }, 
+        {
+            "source": 3, 
+            "target": 32
+        }, 
+        {
+            "source": 3, 
+            "target": 34
+        }, 
+        {
+            "source": 3, 
+            "target": 35
+        }, 
+        {
+            "source": 3, 
+            "target": 36
+        }, 
+        {
+            "source": 3, 
+            "target": 18
+        }, 
+        {
+            "source": 3, 
+            "target": 19
+        }, 
+        {
+            "source": 3, 
+            "target": 39
+        }, 
+        {
+            "source": 4, 
+            "target": 19
+        }, 
+        {
+            "source": 4, 
+            "target": 32
+        }, 
+        {
+            "source": 4, 
+            "target": 33
+        }, 
+        {
+            "source": 4, 
+            "target": 34
+        }, 
+        {
+            "source": 4, 
+            "target": 36
+        }, 
+        {
+            "source": 5, 
+            "target": 29
+        }, 
+        {
+            "source": 5, 
+            "target": 30
+        }, 
+        {
+            "source": 5, 
+            "target": 32
+        }, 
+        {
+            "source": 5, 
+            "target": 36
+        }, 
+        {
+            "source": 6, 
+            "target": 10
+        }, 
+        {
+            "source": 6, 
+            "target": 30
+        }, 
+        {
+            "source": 6, 
+            "target": 12
+        }, 
+        {
+            "source": 6, 
+            "target": 13
+        }, 
+        {
+            "source": 6, 
+            "target": 36
+        }, 
+        {
+            "source": 7, 
+            "target": 30
+        }, 
+        {
+            "source": 7, 
+            "target": 32
+        }, 
+        {
+            "source": 7, 
+            "target": 34
+        }, 
+        {
+            "source": 7, 
+            "target": 35
+        }, 
+        {
+            "source": 7, 
+            "target": 36
+        }, 
+        {
+            "source": 7, 
+            "target": 39
+        }, 
+        {
+            "source": 8, 
+            "target": 38
+        }, 
+        {
+            "source": 8, 
+            "target": 36
+        }, 
+        {
+            "source": 9, 
+            "target": 11
+        }, 
+        {
+            "source": 9, 
+            "target": 30
+        }, 
+        {
+            "source": 9, 
+            "target": 49
+        }, 
+        {
+            "source": 9, 
+            "target": 36
+        }, 
+        {
+            "source": 20, 
+            "target": 48
+        }, 
+        {
+            "source": 20, 
+            "target": 49
+        }, 
+        {
+            "source": 20, 
+            "target": 50
+        }, 
+        {
+            "source": 21, 
+            "target": 17
+        }, 
+        {
+            "source": 21, 
+            "target": 30
+        }, 
+        {
+            "source": 21, 
+            "target": 32
+        }, 
+        {
+            "source": 21, 
+            "target": 14
+        }, 
+        {
+            "source": 21, 
+            "target": 15
+        }, 
+        {
+            "source": 21, 
+            "target": 35
+        }, 
+        {
+            "source": 21, 
+            "target": 36
+        }, 
+        {
+            "source": 22, 
+            "target": 30
+        }, 
+        {
+            "source": 22, 
+            "target": 32
+        }, 
+        {
+            "source": 22, 
+            "target": 35
+        }, 
+        {
+            "source": 22, 
+            "target": 36
+        }, 
+        {
+            "source": 23, 
+            "target": 29
+        }, 
+        {
+            "source": 23, 
+            "target": 30
+        }, 
+        {
+            "source": 23, 
+            "target": 31
+        }, 
+        {
+            "source": 23, 
+            "target": 32
+        }, 
+        {
+            "source": 23, 
+            "target": 34
+        }, 
+        {
+            "source": 23, 
+            "target": 36
+        }, 
+        {
+            "source": 23, 
+            "target": 39
+        }, 
+        {
+            "source": 24, 
+            "target": 33
+        }, 
+        {
+            "source": 24, 
+            "target": 34
+        }, 
+        {
+            "source": 24, 
+            "target": 36
+        }, 
+        {
+            "source": 25, 
+            "target": 30
+        }, 
+        {
+            "source": 25, 
+            "target": 32
+        }, 
+        {
+            "source": 25, 
+            "target": 14
+        }, 
+        {
+            "source": 25, 
+            "target": 16
+        }, 
+        {
+            "source": 25, 
+            "target": 36
+        }, 
+        {
+            "source": 25, 
+            "target": 19
+        }, 
+        {
+            "source": 26, 
+            "target": 30
+        }, 
+        {
+            "source": 26, 
+            "target": 32
+        }, 
+        {
+            "source": 26, 
+            "target": 39
+        }, 
+        {
+            "source": 26, 
+            "target": 35
+        }, 
+        {
+            "source": 26, 
+            "target": 36
+        }, 
+        {
+            "source": 27, 
+            "target": 11
+        }, 
+        {
+            "source": 27, 
+            "target": 48
+        }, 
+        {
+            "source": 27, 
+            "target": 49
+        }, 
+        {
+            "source": 27, 
+            "target": 50
+        }, 
+        {
+            "source": 27, 
+            "target": 30
+        }, 
+        {
+            "source": 27, 
+            "target": 35
+        }, 
+        {
+            "source": 27, 
+            "target": 36
+        }, 
+        {
+            "source": 27, 
+            "target": 18
+        }, 
+        {
+            "source": 28, 
+            "target": 10
+        }, 
+        {
+            "source": 28, 
+            "target": 30
+        }, 
+        {
+            "source": 28, 
+            "target": 12
+        }, 
+        {
+            "source": 28, 
+            "target": 13
+        }, 
+        {
+            "source": 28, 
+            "target": 36
+        }, 
+        {
+            "source": 37, 
+            "target": 30
+        }, 
+        {
+            "source": 37, 
+            "target": 12
+        }, 
+        {
+            "source": 37, 
+            "target": 13
+        }, 
+        {
+            "source": 37, 
+            "target": 36
+        }, 
+        {
+            "source": 40, 
+            "target": 10
+        }, 
+        {
+            "source": 40, 
+            "target": 30
+        }, 
+        {
+            "source": 40, 
+            "target": 13
+        }, 
+        {
+            "source": 40, 
+            "target": 36
+        }, 
+        {
+            "source": 41, 
+            "target": 39
+        }, 
+        {
+            "source": 41, 
+            "target": 35
+        }, 
+        {
+            "source": 42, 
+            "target": 10
+        }, 
+        {
+            "source": 42, 
+            "target": 30
+        }, 
+        {
+            "source": 42, 
+            "target": 12
+        }, 
+        {
+            "source": 42, 
+            "target": 13
+        }, 
+        {
+            "source": 42, 
+            "target": 36
+        }, 
+        {
+            "source": 43, 
+            "target": 18
+        }, 
+        {
+            "source": 43, 
+            "target": 32
+        }, 
+        {
+            "source": 43, 
+            "target": 48
+        }, 
+        {
+            "source": 43, 
+            "target": 35
+        }, 
+        {
+            "source": 43, 
+            "target": 36
+        }, 
+        {
+            "source": 44, 
+            "target": 36
+        }, 
+        {
+            "source": 44, 
+            "target": 47
+        }, 
+        {
+            "source": 44, 
+            "target": 49
+        }, 
+        {
+            "source": 44, 
+            "target": 30
+        }, 
+        {
+            "source": 44, 
+            "target": 35
+        }, 
+        {
+            "source": 44, 
+            "target": 17
+        }, 
+        {
+            "source": 44, 
+            "target": 18
+        }, 
+        {
+            "source": 45, 
+            "target": 17
+        }, 
+        {
+            "source": 45, 
+            "target": 47
+        }, 
+        {
+            "source": 45, 
+            "target": 30
+        }, 
+        {
+            "source": 45, 
+            "target": 32
+        }, 
+        {
+            "source": 45, 
+            "target": 14
+        }, 
+        {
+            "source": 45, 
+            "target": 15
+        }, 
+        {
+            "source": 45, 
+            "target": 35
+        }, 
+        {
+            "source": 45, 
+            "target": 36
+        }, 
+        {
+            "source": 45, 
+            "target": 18
+        }, 
+        {
+            "source": 45, 
+            "target": 19
+        }, 
+        {
+            "source": 46, 
+            "target": 48
+        }, 
+        {
+            "source": 46, 
+            "target": 49
+        }, 
+        {
+            "source": 46, 
+            "target": 50
+        }, 
+        {
+            "source": 46, 
+            "target": 30
+        }, 
+        {
+            "source": 46, 
+            "target": 36
+        }, 
+        {
+            "source": 46, 
+            "target": 18
+        }, 
+        {
+            "source": 51, 
+            "target": 35
+        }, 
+        {
+            "source": 51, 
+            "target": 48
+        }, 
+        {
+            "source": 51, 
+            "target": 30
+        }, 
+        {
+            "source": 51, 
+            "target": 31
+        }, 
+        {
+            "source": 51, 
+            "target": 14
+        }, 
+        {
+            "source": 51, 
+            "target": 15
+        }, 
+        {
+            "source": 51, 
+            "target": 16
+        }, 
+        {
+            "source": 51, 
+            "target": 18
+        }, 
+        {
+            "source": 51, 
+            "target": 38
+        }, 
+        {
+            "source": 51, 
+            "target": 39
+        }
+    ], 
+    "multigraph": false
+}

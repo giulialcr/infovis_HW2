@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Infovis Progetto 2 </title>
+        <link rel="stylesheet" href="style.css">
+      <script src="//d3js.org/d3.v4.min.js"></script>
+      <!-- Load color scale -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+      
+    </head>
+    <body>
+        <script src="js/graphMarvel.js"></script>
+
+        
+        <header>
+            
+          <h1> Check the Best Team! </h1>
+          <h3>You can observe the frequency of the hero teams in the Marvel Filmography. Click to view the Marvel Characters identity. </h3>
+  
+        </header>   
+      
+    </body>
+    <!-- checkbox per scegliere archi da mostrare secondo il loro peso -->
+    <div>
+            
+        <input type="checkbox" class="checkbox" id="c01" value="1" checked><label>movie 1</label>
+        <input type="checkbox" class="checkbox" id="c02" value="2" checked><label>movies 2</label>
+        <input type="checkbox" class="checkbox" id="c03" value="3" checked><label>movies 3</label>
+        <input type="checkbox" class="checkbox" id="c04" value="4" checked><label>movies 4</label>
+        <input type="checkbox" class="checkbox" id="c05" value="5" checked><label>movies 5</label>
+        <input type="checkbox" class="checkbox" id="c06" value="6" checked><label>movies 6</label>
+        <input type="checkbox" class="checkbox" id="c07" value="7" checked><label>movies 7</label>
+    </div>
+        
+    <!-- update del grafo -->
+    
+      <div id="option">
+        <input name="updateButton" 
+                     type="button" 
+                    value="Update!" 
+                    onClick="window.location.reload();" />
+        <!-- checkbox per abiltare/disabilitare il drag del grafo -->
+        <input type="checkbox" class="checkbox" id="dragOk" unchecked><label>able/unable to drag</label>
+    </div>
+    
+    <div id="div2"></div>
+    
+   
+<!-- legenda link colore-numero di movie in comune -->
+    <div id="legend2">
+        <div class="legend2"> <p class="legend_link_movie">Movies in common:</p> </div>
+        <div class="legend2"> <p class="legend_link_movie"><span class="key-dot movie1"></span>1</p> </div>
+        <div class="legend2"> <p class="legend_link_movie"><span class="key-dot movie2"></span>2</p> </div>
+        <div class="legend2"> <p class="legend_link_movie"><span class="key-dot movie3"></span>3</p> </div>
+        <div class="legend2"> <p class="legend_link_movie"><span class="key-dot movie4"></span>4</p> </div>
+        <div class="legend2"> <p class="legend_link_movie"><span class="key-dot movie5"></span>5</p> </div>
+        <div class="legend2"> <p class="legend_link_movie"><span class="key-dot movie6"></span>6</p> </div>
+        <div class="legend2"> <p class="legend_link_movie"><span class="key-dot movie7"></span>7</p> </div>
+        
+        
+     </div>
+     <div>--  Go back to visit <a href="index_V6.html">the Marvel Cinematic Universe</a>   ----</div>
+   
+      
+    <script>
+// fa il parsing del json in seguito a una diversa selezione dei checkbox e click su update, e costruisce un altro json con solo gli archi selezionati
+          function update(){
+            
+            d3.json("data/YourFile9.json", function(error, data) {
+            
+            data2={
+              "directed": false, 
+              "graph": {
+                  "node_default": {}, 
+                  "edge_default": {}
+              },
+              "nodes":[],
+              "links":[],
+              "multigraph": false
+          }
+            lista_archi_peso=[]
+            lista_nodi=[]
+              // For each check box:
+              d3.selectAll(".checkbox").each(function(d){
+                cb = d3.select(this);
+                grp = cb.property("value")
+          
+                // If the box is check
+                if(cb.property("checked")){
+                  for (const i of Array(data['links'].length).keys()) {
+                    if(data['links'][i]['weight']==grp){
+                      lista_archi_peso.push(data['links'][i])
+                      for (const j of Array(data['nodes'].length).keys()) {
+                        
+                        //console.log(data['nodes'][j]['id'])
+                        if (data['links'][i]['source']==data['nodes'][j]['id']&& !(lista_nodi.includes(data['nodes'][j])))
+                          lista_nodi.push(data['nodes'][j])
+                        if (data['links'][i]['target']==data['nodes'][j]['id']&& !(lista_nodi.includes(data['nodes'][j])))
+                          lista_nodi.push(data['nodes'][j])
+}}
+                }
+                }
+              })
+              data2['links']=lista_archi_peso
+              data2['nodes']=lista_nodi
+              // console.log(data2);
+              // crea nuova istanza del grafo hero-hero
+              GraphMarvel("graphMarvel01", data2);
+              
+            })};
+            
+            
+            update()
+
+
+    </script>
+

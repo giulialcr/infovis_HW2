@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+      body {font-family: "Source Code Pro", Consolas, monaco, monospace; line-height: 160%; font-size: 16px;  margin: 0; }
+     
+
+text {
+    font-family: "Source Code Pro", Consolas, monaco, monospace; line-height: 160%; font-size: 16px;  margin: 0;
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+}
+
+svg {
+    width: 100%;
+}
+
+.link {
+    fill: none;
+    stroke: rgba(204, 204, 204, 0.836); /*stroke: #ddd;*/
+}
+
+.node {
+    stroke: #000;
+    stroke-width: 1px;
+}
+body{
+    /* background-image: url("sfondo_edit.jpg");
+    background-repeat:no-repeat; */
+
+
+    /* "https://images2.alphacoders.com/864/thumb-1920-864918.jpg" */
+    /* background-attachment:fixed; */
+
+    background-color: #adadadf1;
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    /* background-size:contain; */
+}
+h1 { font-size: 24px; margin: 10px 0; text-transform: uppercase; font-weight: normal;}
+h2, h3, h4 { font-size: 18px; margin: 5px 0 ; font-weight: normal;} 
+
+
+.legend_link_movie {
+    margin: 0 !important;
+}
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+/* var c10=["#000000","#800026","#bd0026","#fc4e2a","#fd8d3c","#feb24c","#ffeda0"]  link color */
+.movie1 { background: #000000;}
+.movie2 { background: #800026;}
+.movie3 { background: #bd0026;}
+.movie4 { background: #fc4e2a;}
+.movie5 { background: #fd8d3c;}
+.movie6 { background: #febd67;}
+.movie7 { background: #ffeda0;}
+
+#legend2{
+    overflow:hidden;
+}
+.legend2 {
+    float:left;
+    margin-right: 1em;
+}
+
